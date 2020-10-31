@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
+using File.Coverter.Infrastructure.Validation;
 using FileConverter.Infrastructure.Interfaces.Converter;
 using FileConverter.Infrastructure.Interfaces.Validation;
 using FileConverter.Mappers;
@@ -34,9 +35,7 @@ namespace FileConverter
         {
             var serviceProvider = new ServiceCollection();
             //Registering service here
-
-            // TODO next
-
+            serviceProvider.AddSingleton<IArgumentValidationService, ArgumentValidationService>();
             return serviceProvider.BuildServiceProvider();
         }
     }
