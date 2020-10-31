@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FileConverter": {
+      "commandName": "Project",
+      "commandLineArgs": "filesystem C:\\Users\\peter\\Desktop\\Source\\test.json json C:\\Users\\peter\\Desktop\\Target\\test123.json json"
+    }
+  }
+}

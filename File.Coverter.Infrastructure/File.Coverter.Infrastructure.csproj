@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileConverter.Infrastructure.Interfaces\FileConverter.Infrastructure.Interfaces.csproj" />
+    <ProjectReference Include="..\FileConverter.Models\FileConverter.Models.csproj" />
+  </ItemGroup>
+
+</Project>
