@@ -2,7 +2,7 @@
   "profiles": {
     "FileConverter": {
       "commandName": "Project",
-      "commandLineArgs": "filesystem C:\\Users\\peter\\Desktop\\Source\\test.json json C:\\Users\\peter\\Desktop\\Target\\test123.json json"
+      "commandLineArgs": "filesystem C:\\Users\\Peter\\source\\repos\\FileConverterFINAL\\TestFiles\\Source\\MyFile.xml xml C:\\Users\\Peter\\source\\repos\\FileConverterFINAL\\TestFiles\\Target\\MyFile.xml xml"
     }
   }
 }
